@@ -1,0 +1,23 @@
+<//# miguelguerrero_tasca5
+<!doctype html>
+<html>
+    <head>
+        <title>Tabla de multiplicar</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+    </head>
+    <body>
+        <table class="table table-striped">
+            <script>
+                var x = prompt("Introduce un número");
+				document.write("Tabla de multiplicar del: " +x);
+				for (var y = 1; y <=10; y++) {
+				document.write("<tr><td>"+x+" X "+y+" = "+x*y+"</td></tr>");
+				}
+            </script>
+        </table>
+
+        <button type="button"><a href = "index.html"> Vuelve a introducir un número</a></button>
+    </body>
+</html>
