@@ -11,10 +11,17 @@
         <table class="table table-striped">
             <script>
                 var x = prompt("Introduce un número");
-				document.write("Tabla de multiplicar del: " +x);
+				
+                if (x > 0 && x<=10){
+                    document.write("Tabla de multiplicar del: " +x); 
+                
 				for (var y = 1; y <=10; y++) {
 				document.write("<tr><td>"+x+" X "+y+" = "+x*y+"</td></tr>");
-				}
+                }
+                } else {
+                    document.write("Introduce un numero entre el 1 y 10");
+                }
+                
             </script>
         </table>
 
